@@ -1,0 +1,91 @@
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('../images/background.jpg');
+    background-size: cover; 
+    margin: 5em;
+    padding: 10px;
+}
+
+/* Container style */
+.container {
+    border-radius: 5px;
+    padding:20px;
+    width: 400px;
+    height: 80vh;
+    box-shadow: 0 5 10px rgba(0,0,0,.1);
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-left: auto;
+    margin-right: auto;
+
+    
+	display: grid;
+	
+}
+
+/* Heading style */
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+}
+
+/* Alert style */
+.alert {
+    margin-top: 20px;
+    background-color: #837e7e;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(176, 116, 116));
+
+}
+
+/* Form row style */
+.row {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Label style */
+.col1 {
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #555;
+    text-align: start;
+	grid-column: 1;
+}
+
+/* Input field style */
+.col, .colom {
+    flex: 2;
+    grid-column: 2;
+	text-align:center;
+	font-size:25px;
+	width:180px;
+	padding:5px 10px;
+	border:0;
+	outline:none;
+	border: none;
+	border-radius:5px;
+
+}
+
+/* Button style */
+.button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 20px 22px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+
+}
+
+ .button:hover {
+    background-color: #0056b3;
+
+ }

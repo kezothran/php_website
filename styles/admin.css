@@ -1,0 +1,80 @@
+body {
+    background-image: url('../images/background.jpg');
+    background-size: cover; 
+}
+h2{
+    text-align:center;
+    color: #0e2597;
+    text-decoration-line: underline;
+    text-shadow: 2px 2px 5px rgb(34, 217, 141);
+    font-size: 45px;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+    min-height: 100vh;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 3em;
+}
+
+/* Style the table header (th) */
+th {
+    background-color: #04AA6D;
+    height: 300%;
+    color: white;
+}
+tr{
+    background-color: #f2f2f2;
+    hover {background-color: coral;}
+}
+
+/* Style the table data cells (td) */
+td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    height: 70px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+  }
+tr:hover {background-color: coral;}
+
+.button{
+    background-color: #5f6eb7; 
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor:pointer;
+    border-radius: 12px;
+}
+.button:hover {
+    background-color:rgb(162, 139, 139);
+    color:rgb(146, 114, 175);
+} 

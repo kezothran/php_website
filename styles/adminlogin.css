@@ -1,0 +1,82 @@
+.{
+	padding:0;
+	margin:0;
+	font-family:sans-serif;
+}
+
+body{
+	background: url('../images/background.jpg');
+	background-size: cover;
+}
+
+.cust{
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	position:absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color:black;
+	
+}
+
+.Container h2{
+	font-size:40px;
+	color: #fff;
+	text-align:center;
+	text-transform:uppercase;
+	margin:40px 0;
+}
+
+.cust label{
+	text-align: start;
+	grid-column: 1;
+	color: #fff;
+	font-size:20px;
+	margin:15px 0;
+}
+
+.cust input{
+	grid-column: 2;
+	font-size:16px;
+	width:280px;
+	padding:15px 10px;
+	border:0;
+	outline:none;
+	border: none;
+	border-radius:5px;
+}
+
+.cust button{
+    background-color: white; 
+    color: black; 
+    border: 2px solid red;
+    border-radius: 10px;
+    margin:20px 0;
+	width: 200px;
+	padding:10px 60px
+  }
+  
+.cust button:hover {
+    background-color: red;
+    color: white;
+}
+
+.cust form {
+	padding: 50px;
+	background-color: #0000007f;
+	align-items: center;
+	line-height: 8px;
+	border-radius:5px;
+	display: grid;
+	grid-gap: 10px;
+}
+
+.cust a {
+	display: flex;
+	justify-content: center;
+	color:#fff;
+}
+

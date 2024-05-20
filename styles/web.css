@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	
+	background-color: #cccccc;
+	background-size: cover;
+}
+
+.row{
+    width:80%;
+    max-width:1170px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-gap: 50px 30px;
+}
+
+.row.left{
+    overflow: hidden;
+}
+
+
+
+.row.right.content{
+    padding-left:20px;
+
+}
+
+.content p{
+	margin-top: 50px;
+    font-size: 20px;
+    line-height: 26px;
+    padding-bottom:15px;
+}
+
+.content center h1{
+	margin-top:50px;
+}
+
+@media(max-width:991px)
+{
+    .row.right.content{
+        padding-left:0;
+    }
+}
+
+@media(max-width:760px)
+{
+    .row{
+        width:90%;
+        grid-template-columns: 1fr;
+    }
+}
+
+.header{
+    width:1500px;
+	height:80px;
+	margin:auto;
+	background-color:#2e2e2e;
+	
+	
+   }
+.headerTT{
+	display:flex;
+}
+.avatar{
+	margin-top:17px;
+	cursor:pointer;
+}
+
+.headersT{
+   
+   width:1500px;
+	height:300px;
+	margin:auto;
+	background-color:#2e2e2e;
+		
+}
+
+.nav {
+	width: 1500px;
+	background-color: #2e2e2e;
+	margin: auto;
+	overflow: auto;
+	
+	
+}
+.logos {
+	display: block;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	float: left;
+	border-radius: 10px;
+	margin-right: 30px;
+	
+	display: flex;
+}
+
+ ul{
+   margin:3px;
+   padding:5px;
+   list-style:none;
+   display:flex;
+   justify-content: flex-end;
+   align-items: center;
+   
+   
+   }
+li{
+   float:right;
+   
+   }
+
+   a:link{
+    
+	width:125px;
+	text-decoration:none;
+	display:block;
+	text-align:center;
+	padding:5px;
+	text-transform:uppercase;
+	font-size:16px;
+	font-family:Verdan;
+   }
+   a:hover{
+   background-color:#d2c433;
+   color:black;
+   }
+   a{
+    color:white;
+	height: 100%;
+	padding: 0 30px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	
+   }
+   
+   .bottomH{
+	
+	width:1500px;
+	height:400px;
+	
+	background-color:#2e2e2e;
+	margin-top: 10px;
+	   
+   }
+	.bottomH img {
+		padding: 50px;
+		margin: 10px;
+		border-radius: 70px;
+		margin-top: 60px;
+		
+	}
+
+	
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+   .bottomH center{
+	   color:white;
+	   font-size:12px;
+	margin-bottom:400px;
+	font-family: 'Poppins', sans-serif;
+	   
+   }
+
+
+
+
+
+
+	
